@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "ecd4660a-6cc7-42d0-922a-835ba66623a5",
+		"name": "Resource server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Email",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "260b67a2-005b-485d-af3f-a672551a0d08",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8092/user/email",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"user",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Phone",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "260b67a2-005b-485d-af3f-a672551a0d08",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8092/user/phone",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"user",
+						"phone"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Me",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "260b67a2-005b-485d-af3f-a672551a0d08",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8092/user/me",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"user",
+						"me"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
